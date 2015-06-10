@@ -74,6 +74,7 @@
   overflow: hidden;
 }
 .justified-gallery > a,
+.justified-gallery > figure,
 .justified-gallery > div {
   position: absolute;
   display: inline-block;
@@ -83,8 +84,10 @@
   /* IE8 or Earlier */
 }
 .justified-gallery > a > img,
+.justified-gallery > figure > img,
 .justified-gallery > div > img,
 .justified-gallery > a > a > img,
+.justified-gallery > figure > a > img,
 .justified-gallery > div > a > img {
   position: absolute;
   top: 50%;
@@ -94,6 +97,7 @@
   border: none;
 }
 .justified-gallery > a > .caption,
+.justified-gallery > figure > .caption,
 .justified-gallery > div > .caption {
   display: none;
   position: absolute;
@@ -109,6 +113,7 @@
   font-family: sans-serif;
 }
 .justified-gallery > a > .caption.caption-visible,
+.justified-gallery > figure > .caption.caption-visible,
 .justified-gallery > div > .caption.caption-visible {
   display: initial;
   opacity: 0.7;

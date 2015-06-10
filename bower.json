@@ -1,9 +1,9 @@
 {
-  "name": "justifiedGallery",
+  "name": "morrr-gallery",
   "version": "3.5.4",
-  "homepage": "http://miromannino.github.io/Justified-Gallery/",
+  "homepage": "https://github.com/Petvetbook/Justified-Gallery",
   "authors": [
-    "Miro Mannino <miro.mannino@gmail.com>"
+    "Morrr"
   ],
   "description": "This is a JQuery plugin that allows you to create an high quality justified gallery of images. Fill all the spaces!",
   "main": [
